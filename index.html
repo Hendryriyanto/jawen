@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surprise untuk Kesayangan</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Good Morning,Sayang ❤</h1>
+    </header>
+    <section class="gallery">
+        <h2>G</h2>
+        <div class="photos">
+            <img src="images/1.jpg" alt="Kenangan 1" onclick="openLightbox(this)" />
+            <img src="images/2.jpg" alt="Kenangan 2" onclick="openLightbox(this)" />
+        </div>
+    </section>
+    <section class="messages">
+        <h2>Pesan Romantis</h2>
+        <p id="romanticMessage"> Tulisan ini jangan di klik ya wen Bahaya </p>
+    </section>
+    <section class="timeline">
+        <h2>Timeline</h2>
+        <div id="timeline"></div>
+    </section>
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Kenangan" />
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
